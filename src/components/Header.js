@@ -14,17 +14,17 @@ const Header = () => {
             height="60"
             className="d-inline-block align-top"
           />
-          <span className="navbar-brand-text">Sample</span>
+          <span className="navbar-brand-text">Finance</span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/home" className="nav-link-text">Home</Nav.Link>
+            <Nav.Link href="/" className="nav-link-text">Home</Nav.Link>
             <Nav.Link href="/about" className="nav-link-text">About</Nav.Link>
-            <Nav.Link href="/blog" className="nav-link-text">Blog</Nav.Link>
+            <Nav.Link href="/loans" className="nav-link-text">Loans</Nav.Link>
             <Nav.Link href="/contact" className="nav-link-text">Contact</Nav.Link>
-            <Nav.Link href="#get-start" className="get-start">Get Start</Nav.Link>
+            <Nav.Link href="/login" className="get-start">Get Start</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
